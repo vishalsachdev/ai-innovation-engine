@@ -145,6 +145,60 @@
     .flywheel p { margin-bottom: 0.8rem; }
     .flywheel p:last-child { margin-bottom: 0; }
 
+    .philosophy {
+      background: var(--navy);
+      color: var(--white);
+      border-radius: 12px;
+      padding: 2rem 2.5rem;
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    .philosophy .tagline {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.3;
+    }
+
+    .philosophy .tagline span { color: var(--orange-light); }
+
+    .philosophy .explanation {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+      text-align: left;
+    }
+
+    .philosophy .explanation div { opacity: 0.92; }
+
+    .philosophy .explanation strong {
+      color: var(--orange-light);
+      display: block;
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .philosophy .explanation p {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .philosophy .hashtags {
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      opacity: 0.6;
+    }
+
+    @media (max-width: 600px) {
+      .philosophy .tagline { font-size: 1.4rem; }
+      .philosophy .explanation { grid-template-columns: 1fr; }
+    }
+
     .cta {
       background: var(--navy);
       color: var(--white);
@@ -274,6 +328,21 @@
     <p><strong>The flywheel:</strong> Every completed project deposits a reusable AI skill into a compound library. Next semester&rsquo;s students start with a richer toolkit. Corporate sponsors see results and post more challenges. Research data flows to ISOI and faculty studying human-AI collaboration. Viable tools enter Origin Ventures&rsquo; iVenture Accelerator for commercialization. Alumni see innovation at Gies and engage as mentors and funders.</p>
   </div>
 
+  <div class="philosophy">
+    <div class="tagline"><span>Build to Learn.</span> Learn to Build.</div>
+    <div class="explanation">
+      <div>
+        <strong>Learn to Build</strong>
+        <p>Students use AI as a tool &mdash; research markets, draft business models, analyze competitors, prototype products. AI is their analyst, copywriter, and junior developer all at once.</p>
+      </div>
+      <div>
+        <strong>Build to Learn</strong>
+        <p>The act of building with AI <em>teaches</em> &mdash; forces clearer thinking, surfaces hidden assumptions, reveals what you don&rsquo;t know. Students don&rsquo;t just get a deliverable. They get sharper judgment.</p>
+      </div>
+    </div>
+    <div class="hashtags">#BuildToLearn &middot; #LearnToBuild</div>
+  </div>
+
   <h2>Scale</h2>
   <p>Gies has <strong>9,000 active students</strong> (3,000 undergrad, 1,000 on-campus masters, 5,000+ online), <strong>60,000+ alumni</strong>, and partnerships with <strong>30+ corporations</strong> who are actively asking: <em>&ldquo;How do we build AI-ready talent?&rdquo;</em> The Engine gives them an answer &mdash; and a hiring pipeline.</p>
   <p>Our online MBA students (average 11 years of work experience, spanning 85 countries) are a particularly powerful and untapped asset. Through a &ldquo;Bring Your Own Challenge&rdquo; model, they can apply AI skills directly to problems at their current employers &mdash; creating value for the student, the employer, and the skill library simultaneously.</p>
@@ -378,10 +447,10 @@
     </div>
 
     <div class="project-card">
-      <a href="https://pathshaper.illinihunt.org" target="_blank" rel="noopener">
+      <a href="https://pathshaper-554.vercel.app/" target="_blank" rel="noopener">
         <div class="project-name">PathShaper</div>
         <div class="project-desc">Learning 3.0 prototype &mdash; faculty as shapers on the path. Adaptive learning architecture proof of concept.</div>
-        <span class="project-tag">illinihunt.org</span>
+        <span class="project-tag">Vercel</span>
         <span class="project-tag">Disruption Lab</span>
       </a>
     </div>
@@ -399,6 +468,7 @@
   <blockquote>
     <p>Every business school is teaching <em>about</em> AI. Gies is building the factory.</p>
     <p>Our graduates won&rsquo;t just know AI tools &mdash; they&rsquo;ll have <strong>architected AI systems</strong> that are running in production, serving real corporate clients, generating research data, and growing a skill library that no competitor can replicate.</p>
+    <p><strong>#BuildToLearn &middot; #LearnToBuild</strong></p>
   </blockquote>
 </div>
 

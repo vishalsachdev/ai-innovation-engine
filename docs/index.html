@@ -165,6 +165,63 @@
 
     .cta p { opacity: 0.9; }
 
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin: 1.2rem 0 1.5rem;
+    }
+
+    .project-card {
+      border: 1px solid var(--gray-200);
+      border-radius: 10px;
+      padding: 1.2rem;
+      transition: border-color 0.2s;
+    }
+
+    .project-card:hover { border-color: var(--orange); }
+
+    .project-card a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .project-card .project-name {
+      font-weight: 700;
+      color: var(--navy);
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .project-card .project-desc {
+      font-size: 0.85rem;
+      color: var(--gray-600);
+      line-height: 1.5;
+    }
+
+    .project-card .project-tag {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.15rem 0.6rem;
+      background: var(--gray-100);
+      border-radius: 12px;
+      font-size: 0.75rem;
+      color: var(--gray-600);
+      font-weight: 500;
+    }
+
+    .project-card.featured {
+      grid-column: 1 / -1;
+      border-color: var(--orange);
+      background: linear-gradient(135deg, #FFF5F2 0%, var(--white) 100%);
+    }
+
+    @media (max-width: 600px) {
+      .projects { grid-template-columns: 1fr; }
+      .project-card.featured { grid-column: auto; }
+    }
+
     .footer {
       text-align: center;
       padding: 2rem;
@@ -279,6 +336,64 @@
     <div class="amount">$190,000 &mdash; Year 1</div>
     <p>Infrastructure &amp; compute ($30K) &middot; Student stipends ($20K) &middot; Program coordinator ($60K)<br>
     Faculty development ($40K) &middot; Research support ($25K) &middot; Events ($15K)</p>
+  </div>
+
+  <h2>Existing Infrastructure &mdash; Already Built and Running</h2>
+  <p>These are not proposals. These are live, deployed projects that form the foundation of the Innovation Engine.</p>
+
+  <div class="projects">
+    <div class="project-card featured">
+      <a href="https://go.gies.illinois.edu/AI-Challenge" target="_blank" rel="noopener">
+        <div class="project-name">Gies AI Challenge &rarr;</div>
+        <div class="project-desc">The official AI challenge platform at Gies College of Business &mdash; where the Innovation Engine meets real problems.</div>
+        <span class="project-tag">go.gies.illinois.edu</span>
+      </a>
+    </div>
+
+    <div class="project-card">
+      <a href="https://github.com/vishalsachdev/canvas-mcp" target="_blank" rel="noopener">
+        <div class="project-name">Canvas MCP</div>
+        <div class="project-desc">Open-source AI toolkit for Canvas LMS &mdash; 90+ tools and 8 agent skills. Published on PyPI, adopted across 6 Gies courses.</div>
+        <span class="project-tag">PyPI</span>
+        <span class="project-tag">Open Source</span>
+      </a>
+    </div>
+
+    <div class="project-card">
+      <a href="https://agentlab.illinihunt.org" target="_blank" rel="noopener">
+        <div class="project-name">AgentLab</div>
+        <div class="project-desc">Student-led research organization exploring multi-agent AI for education. Building PathShaper, IlliniClaw, and more.</div>
+        <span class="project-tag">illinihunt.org</span>
+        <span class="project-tag">Student RSO</span>
+      </a>
+    </div>
+
+    <div class="project-card">
+      <a href="https://github.com/vishalsachdev/illiniclaw" target="_blank" rel="noopener">
+        <div class="project-name">IlliniClaw</div>
+        <div class="project-desc">AI-powered WhatsApp teaching assistant &mdash; a replicable blueprint for building AI course bots at scale.</div>
+        <span class="project-tag">WhatsApp Bot</span>
+        <span class="project-tag">Open Source</span>
+      </a>
+    </div>
+
+    <div class="project-card">
+      <a href="https://pathshaper.illinihunt.org" target="_blank" rel="noopener">
+        <div class="project-name">PathShaper</div>
+        <div class="project-desc">Learning 3.0 prototype &mdash; faculty as shapers on the path. Adaptive learning architecture proof of concept.</div>
+        <span class="project-tag">illinihunt.org</span>
+        <span class="project-tag">Disruption Lab</span>
+      </a>
+    </div>
+
+    <div class="project-card">
+      <a href="https://github.com/vishalsachdev/inquiring-agents" target="_blank" rel="noopener">
+        <div class="project-name">Inquiring Agents</div>
+        <div class="project-desc">Multi-agent Delphi debate on AI ethics using Churchman&rsquo;s Five Inquiring Systems. Interactive simulation.</div>
+        <span class="project-tag">Cloudflare Worker</span>
+        <span class="project-tag">Open Source</span>
+      </a>
+    </div>
   </div>
 
   <blockquote>

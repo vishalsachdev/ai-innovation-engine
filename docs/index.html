@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gies AI Innovation Engine</title>
+  <style>
+    :root {
+      --navy: #13294B;
+      --orange: #E84A27;
+      --orange-light: #FF6E42;
+      --gray-50: #F8F9FA;
+      --gray-100: #F1F3F5;
+      --gray-200: #E9ECEF;
+      --gray-600: #6C757D;
+      --gray-800: #343A40;
+      --white: #FFFFFF;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      color: var(--gray-800);
+      line-height: 1.7;
+      background: var(--white);
+    }
+
+    .header {
+      background: var(--navy);
+      color: var(--white);
+      padding: 3rem 2rem 2.5rem;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      opacity: 0.85;
+      font-weight: 400;
+    }
+
+    .header .badge {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.3rem 1rem;
+      background: var(--orange);
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 4rem;
+    }
+
+    .meta {
+      text-align: center;
+      color: var(--gray-600);
+      font-size: 0.9rem;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--gray-200);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      color: var(--navy);
+      margin: 2.2rem 0 0.8rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    h2:first-of-type { margin-top: 0; }
+
+    p { margin-bottom: 1rem; }
+
+    strong { color: var(--navy); }
+
+    blockquote {
+      border-left: 4px solid var(--orange);
+      padding: 1.2rem 1.5rem;
+      margin: 1.5rem 0;
+      background: var(--gray-50);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: var(--navy);
+      line-height: 1.8;
+    }
+
+    blockquote p:last-child { margin-bottom: 0; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 1.5rem;
+      font-size: 0.92rem;
+    }
+
+    thead { background: var(--navy); color: var(--white); }
+
+    th {
+      padding: 0.7rem 1rem;
+      text-align: left;
+      font-weight: 600;
+      font-size: 0.85rem;
+      letter-spacing: 0.03em;
+    }
+
+    td {
+      padding: 0.6rem 1rem;
+      border-bottom: 1px solid var(--gray-200);
+    }
+
+    tbody tr:hover { background: var(--gray-50); }
+
+    .highlight-row td:last-child {
+      color: var(--orange);
+      font-weight: 700;
+    }
+
+    ul, ol {
+      margin: 0.5rem 0 1rem 1.5rem;
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    .flywheel {
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: 12px;
+      padding: 1.5rem 1.8rem;
+      margin: 1.5rem 0;
+    }
+
+    .flywheel p { margin-bottom: 0.8rem; }
+    .flywheel p:last-child { margin-bottom: 0; }
+
+    .cta {
+      background: var(--navy);
+      color: var(--white);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-top: 2.5rem;
+      text-align: center;
+    }
+
+    .cta h2 { color: var(--white); margin-top: 0; }
+
+    .cta .amount {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--orange-light);
+      margin: 0.5rem 0;
+    }
+
+    .cta p { opacity: 0.9; }
+
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--gray-600);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--gray-200);
+    }
+
+    .footer a {
+      color: var(--orange);
+      text-decoration: none;
+    }
+
+    .footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 600px) {
+      .header h1 { font-size: 1.6rem; }
+      .container { padding: 1.5rem 1.2rem 3rem; }
+      table { font-size: 0.82rem; }
+      th, td { padding: 0.5rem 0.6rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>The Gies AI Innovation Engine</h1>
+  <div class="subtitle">Gies College of Business, University of Illinois Urbana-Champaign</div>
+  <div class="badge">Funding Proposal</div>
+</div>
+
+<div class="container">
+  <div class="meta">
+    Prepared by Vishal Sachdev, Clinical Associate Professor<br>
+    Department of Business Administration &middot; March 2026
+  </div>
+
+  <h2>The Opportunity</h2>
+  <p>Every top business school is scrambling to teach AI. Most are adding courses. A few are adding labs. None have built a <strong>self-sustaining engine</strong> where the act of teaching AI simultaneously generates research data, produces institutional infrastructure, creates a corporate talent pipeline, and feeds a startup accelerator.</p>
+  <p>Gies can be first &mdash; and we already have the pieces.</p>
+
+  <h2>What We Propose</h2>
+  <p>The <strong>AI Innovation Engine</strong> is a multi-sided platform where faculty, staff, corporate partners, and alumni post real-world AI challenges, and Gies students build solutions using shared open-source infrastructure. Every project adds to a compound skill library that makes the next project faster, generates annotated research data for studying human-AI collaboration, and feeds our Origin Ventures commercialization pipeline.</p>
+  <p>This is not a new program &mdash; it is an <strong>AI coordination layer on top of infrastructure that already exists</strong>: the Magelli Office (200+ client projects/year), Origin Ventures ($5M endowment, iVenture Accelerator), ISOI&rsquo;s research networks, and our online programs (5,000+ students across 85 countries).</p>
+
+  <h2>How It Works</h2>
+  <div class="flywheel">
+    <p><strong>Demand side:</strong> Faculty post course tool needs. Staff post operational automations. Corporate partners (Deloitte, Synchrony, Goldman Sachs, Bain &mdash; all currently in our DBC/CSP network) post talent-pipeline challenges with funding attached. Online MBA students bring challenges from their own employers.</p>
+    <p><strong>Supply side:</strong> Student builder teams &mdash; IBC (260 consultants), Disruption Lab, AgentLab, EntreCorps, and individual students through BADM 301 (required for all juniors) &mdash; build solutions using shared technical infrastructure: an AI agent backend with university SSO, a skills framework for engineering process, an organizational simulation platform for teaching AI governance, and our existing Canvas MCP (90+ tools, open-source, adopted across 6 courses).</p>
+    <p><strong>The flywheel:</strong> Every completed project deposits a reusable AI skill into a compound library. Next semester&rsquo;s students start with a richer toolkit. Corporate sponsors see results and post more challenges. Research data flows to ISOI and faculty studying human-AI collaboration. Viable tools enter Origin Ventures&rsquo; iVenture Accelerator for commercialization. Alumni see innovation at Gies and engage as mentors and funders.</p>
+  </div>
+
+  <h2>Scale</h2>
+  <p>Gies has <strong>9,000 active students</strong> (3,000 undergrad, 1,000 on-campus masters, 5,000+ online), <strong>60,000+ alumni</strong>, and partnerships with <strong>30+ corporations</strong> who are actively asking: <em>&ldquo;How do we build AI-ready talent?&rdquo;</em> The Engine gives them an answer &mdash; and a hiring pipeline.</p>
+  <p>Our online MBA students (average 11 years of work experience, spanning 85 countries) are a particularly powerful and untapped asset. Through a &ldquo;Bring Your Own Challenge&rdquo; model, they can apply AI skills directly to problems at their current employers &mdash; creating value for the student, the employer, and the skill library simultaneously.</p>
+
+  <h2>Why Gies Wins</h2>
+  <table>
+    <thead><tr><th>Capability</th><th>Peers</th><th>Gies</th></tr></thead>
+    <tbody>
+      <tr><td>AI curriculum</td><td>Courses, certificates</td><td>Full Learn-Create-Earn pathway + MSBAi</td></tr>
+      <tr><td>Student builder infrastructure</td><td>Ad hoc labs</td><td>200+ projects/year through Magelli + 6 active RSOs</td></tr>
+      <tr><td>Startup commercialization</td><td>Separate programs</td><td>Origin Ventures iVenture ($20K/startup) integrated</td></tr>
+      <tr><td>Open-source teaching tools</td><td>Individual projects</td><td>Canvas MCP (90+ tools on PyPI), compound skill library</td></tr>
+      <tr><td>Online builder pool</td><td>Small cohorts</td><td>5,000+ experienced professionals on Coursera</td></tr>
+      <tr><td>Corporate challenge marketplace</td><td>Career fairs</td><td>DBC/CSP network of 30+ Fortune 500 partners</td></tr>
+      <tr><td>Research data pipeline</td><td>Lab settings</td><td>IRB-compliant platform targeting 60K+ conversations by Year 3</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Financial Model</h2>
+  <table>
+    <thead><tr><th></th><th>Year 1</th><th>Year 2</th><th>Year 3</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Institutional investment</strong></td><td>$190K</td><td>$200K</td><td>$150K</td></tr>
+      <tr><td>External revenue</td><td>$30K</td><td>$340K</td><td>$860K</td></tr>
+      <tr><td><strong>Total resources</strong></td><td>$220K</td><td>$540K</td><td>$1,010K</td></tr>
+      <tr class="highlight-row"><td><strong>Institutional share</strong></td><td>86%</td><td>37%</td><td>15%</td></tr>
+    </tbody>
+  </table>
+  <p>By Year 3, the Engine is <strong>85% externally funded</strong>. Corporate challenge sponsorships, IBC fee-based consulting, NSF/industry grants, and Origin Ventures co-investment drive the shift.</p>
+
+  <h2>What We Deliver</h2>
+  <table>
+    <thead><tr><th>Metric</th><th>Year 1</th><th>Year 3</th></tr></thead>
+    <tbody>
+      <tr><td>AI challenges completed</td><td>20</td><td>200</td></tr>
+      <tr><td>Reusable skills in library</td><td>20</td><td>250+</td></tr>
+      <tr><td>Courses using shared infrastructure</td><td>3</td><td>30</td></tr>
+      <tr><td>Corporate sponsors</td><td>3</td><td>15+</td></tr>
+      <tr><td>Research conversations collected</td><td>5,000</td><td>60,000+</td></tr>
+      <tr><td>Peer-reviewed publications</td><td>2</td><td>12+</td></tr>
+      <tr><td>Student startup spinoffs</td><td>1</td><td>8</td></tr>
+      <tr><td>Active student participants</td><td>500</td><td>1,500</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Immediate Timeline</h2>
+  <table>
+    <thead><tr><th>Date</th><th>Milestone</th></tr></thead>
+    <tbody>
+      <tr><td><strong>April 2026</strong></td><td>Buildathon pilot (staff challenges, MS Copilot/Teams)</td></tr>
+      <tr><td><strong>April 16</strong></td><td>DBC/CSP presentation &mdash; gauge corporate interest</td></tr>
+      <tr><td><strong>Summer 2026</strong></td><td>Deploy shared technical infrastructure</td></tr>
+      <tr><td><strong>Fall 2026</strong></td><td>Pilot: 3 courses + 3 corporate challenges + 1 research study</td></tr>
+      <tr><td><strong>Spring 2027</strong></td><td>Scale to 12 courses + online BYOC pilot</td></tr>
+    </tbody>
+  </table>
+
+  <div class="cta">
+    <h2>The Ask</h2>
+    <div class="amount">$190,000 &mdash; Year 1</div>
+    <p>Infrastructure &amp; compute ($30K) &middot; Student stipends ($20K) &middot; Program coordinator ($60K)<br>
+    Faculty development ($40K) &middot; Research support ($25K) &middot; Events ($15K)</p>
+  </div>
+
+  <blockquote>
+    <p>Every business school is teaching <em>about</em> AI. Gies is building the factory.</p>
+    <p>Our graduates won&rsquo;t just know AI tools &mdash; they&rsquo;ll have <strong>architected AI systems</strong> that are running in production, serving real corporate clients, generating research data, and growing a skill library that no competitor can replicate.</p>
+  </blockquote>
+</div>
+
+<div class="footer">
+  <p>Vishal Sachdev &middot; Clinical Associate Professor &middot; <a href="https://github.com/vishalsachdev/ai-innovation-engine">GitHub Repository</a></p>
+</div>
+
+</body>
+</html>

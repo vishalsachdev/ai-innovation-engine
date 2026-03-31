@@ -5,11 +5,6 @@ Research and planning repo for the AI Innovation Engine — a multi-sided platfo
 ## Repo Type
 type: research
 
-## Parent Repo
-- **Framework:** `/Users/vishal/code/helloworld` (experiment sandbox)
-- **Branch:** `exp/ai-innovation-engine-vishal`
-- **This is a git worktree** — commits go to the experiment branch
-
 ## Structure
 
 ```

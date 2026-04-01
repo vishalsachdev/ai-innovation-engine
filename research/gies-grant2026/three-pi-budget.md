@@ -56,7 +56,7 @@
 
 **Compute Supplement ($1,000/year)**
 - Supplemental cloud compute for burst capacity during peak semesters
-- Note: Core compute is provided by DSRS at no cost to the grant (486 CPU cores, A100 GPUs, $160K+ Azure credits)
+- Note: Core compute is provided by DSRS at no cost to the grant (486 CPU cores, 2 A100 GPUs)
 
 ### 4. Data Collection & IRB — $5,000
 
@@ -111,15 +111,15 @@ This proposal achieves significant cost savings by leveraging existing Gies inve
 
 | Asset | Estimated Replacement Cost | Provided By |
 |---|---|---|
-| DSRS compute cluster (486 cores, A100 GPUs) | $200,000+ | DSRS (Carrasco Kind) |
-| Microsoft Azure credits | $160,000 | DSRS Azure Award |
+| DSRS compute cluster (486 cores, 2 A100 GPUs) | $200,000+ | DSRS (Carrasco Kind) |
 | Atlas agentic framework & data pipelines | $50,000+ dev cost | DSRS |
+| iKompete challenge platform | $30,000+ dev cost | DSRS |
 | Canvas MCP (90+ tools, PyPI-published) | $100,000+ dev cost | Sachdev (open-source) |
 | DSRS student intern labor (existing) | $30,000/year | DSRS existing budget |
 | Magelli Office challenge pipeline | — | Existing Gies program |
-| **Total leveraged value** | **$540,000+** | |
+| **Total leveraged value** | **$410,000+** | |
 
-The $75,000 grant request funds the coordination layer that unlocks over $540,000 in existing infrastructure — a **7:1 leverage ratio**.
+The $75,000 grant request funds the coordination layer that unlocks over $410,000 in existing infrastructure — a **5:1 leverage ratio**.
 
 ---
 

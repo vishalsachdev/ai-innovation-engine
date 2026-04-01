@@ -35,7 +35,7 @@ The instrumented platform enables three lines of inquiry:
 
 **RQ3:** What patterns of AI-mediated decision-making, skill development, and collaboration emerge from large-scale instrumented business education?
 
-RQ1 employs process mining of interaction sequences and regression analysis of skill trajectories. RQ2 uses experimental designs embedded in finance courses (Zhang), measuring decision quality and appropriate AI reliance. RQ3 produces the open dataset — curated, de-identified, and documented following FAIR principles — available to any Gies faculty member with IRB approval.
+RQ1 employs process mining of interaction sequences and regression analysis of skill trajectories. RQ2 uses experimental designs embedded in finance courses (Zhang), measuring decision quality and appropriate AI reliance. RQ3 is an enabling question: the Engine's instrumentation layer is designed so that any Gies faculty member studying AI-related phenomena can integrate their course into the platform and collect data under their own IRB protocol. We build the infrastructure; they bring the research question.
 
 ## 4. Team
 
@@ -61,7 +61,7 @@ RQ1 employs process mining of interaction sequences and regression analysis of s
 
 ## 6. Broader Impact and External Funding
 
-**Open research dataset.** The Engine's instrumented data (targeting 10,000+ annotated interactions in Year 1, 40,000+ by Year 2) is available to any Gies faculty member with IRB approval — enabling studies of AI-mediated decision-making, learning analytics, and technology adoption across Accountancy, Finance, Marketing, and Strategy.
+**Shared research infrastructure.** The Engine is designed so that any Gies faculty member studying AI-related phenomena can integrate their course into the platform and collect instrumented data under their own IRB protocol. We build and maintain the instrumentation layer — interaction logging, skill library tracking, assessment data capture — and faculty bring their research questions. This lowers the barrier to AI education research from "build your own data collection apparatus" to "plug your course into the Engine." Faculty across Accountancy, Finance, Marketing, and Strategy can study AI-mediated decision-making, learning analytics, and technology adoption without duplicating infrastructure.
 
 **Roadmap beyond the grant.** The Engine's architecture supports future extensions not funded here: corporate challenge sponsorships from Gies's DBC/CSP partners (30+ Fortune 500 companies), an Origin Ventures commercialization pathway for student-built tools, and a "Bring Your Own Challenge" model for Gies's 5,000+ online MBA students. These represent revenue pathways that can sustain the Engine beyond the grant period.
 

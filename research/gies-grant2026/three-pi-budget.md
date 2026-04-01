@@ -6,7 +6,7 @@
 
 **Funding Request:** Medium — $75,000
 
-**Spending Period:** AY 2026-27 through AY 2027-28 (2 years)
+**Spending Period:** AY 2026-27 through AY 2027-28 (2 years). All spending completes before end of AY 2028-29 per CFP requirements.
 
 ---
 
@@ -15,14 +15,14 @@
 | Category | Year 1 (AY 26-27) | Year 2 (AY 27-28) | Total |
 |---|---|---|---|
 | Student Research Assistants | $18,000 | $18,000 | $36,000 |
-| Fringe Benefits (~8%) | $1,500 | $1,500 | $3,000 |
+| Fringe Benefits (~8%) | $1,440 | $1,440 | $2,880 |
 | LLM API & Compute Credits | $5,000 | $3,000 | $8,000 |
-| Data Collection & IRB | $4,000 | $1,000 | $5,000 |
+| Data Collection & IRB | $4,000 | $2,000 | $6,000 |
 | Software & Platform Tools | $3,000 | $2,000 | $5,000 |
 | Research Dissemination | $3,000 | $5,000 | $8,000 |
 | Participant Compensation | $2,500 | $2,500 | $5,000 |
-| Contingency & Supplies | $2,500 | $2,500 | $5,000 |
-| **Total** | **$39,500** | **$35,500** | **$75,000** |
+| Contingency & Supplies | $2,060 | $2,060 | $4,120 |
+| **Total** | **$39,000** | **$36,000** | **$75,000** |
 
 ---
 
@@ -32,7 +32,7 @@
 
 **Masters Research Assistants (2 RAs, hourly, 2 years)**
 - $12,000/year for 2 masters students (MSBA, MAS, MCS, or MSF programs) working ~10 hrs/week during semesters
-- Responsibilities: Engine platform integration, skill library development, data collection pipeline, dataset curation, interaction coding
+- Responsibilities: Engine platform integration, skill library development, data collection pipeline, dataset curation, interaction log processing
 - One RA reports to PI (Sachdev) for Engine coordination and Canvas MCP integration
 - One RA reports to Co-I (Carrasco Kind) for DSRS backend integration and data pipelines
 - Recruited from existing AgentLab and DSRS student talent pools
@@ -42,10 +42,10 @@
 - Drawn from AgentLab, IBC, and Disruption Lab student organizations
 - Supervised by PI (Sachdev)
 
-### 2. Fringe Benefits — $3,000
+### 2. Fringe Benefits — $2,880
 
 - Hourly student fringe at university rate (~8% for hourly student employees)
-- Applied to all student RA compensation
+- Applied to all student RA compensation ($36,000 × 8% = $2,880)
 
 ### 3. LLM API & Compute Credits — $8,000
 
@@ -58,16 +58,18 @@
 - Supplemental cloud compute for burst capacity during peak semesters
 - Note: Core compute is provided by DSRS at no cost to the grant (486 CPU cores, 2 A100 GPUs)
 
-### 4. Data Collection & IRB — $5,000
+### 4. Data Collection & IRB — $6,000
 
 **IRB Protocol Development ($3,000 Year 1)**
 - Consultant support for informed consent procedures adapted to educational platform research
 - Legal review of data retention, de-identification, and cross-course data sharing protocols
+- FERPA compliance review for student interaction logs
 
-**Data Curation ($1,000/year)**
-- De-identification pipeline validation
-- Annotation scheme development and inter-rater reliability testing
+**Data Curation ($1,000 Year 1, $2,000 Year 2)**
+- De-identification pipeline development and validation
+- Interaction log processing and quality assurance
 - Dataset documentation following FAIR data principles
+- Year 2 increases as data volume scales from 3 to 8 courses
 
 ### 5. Software & Platform Tools — $5,000
 
@@ -98,10 +100,10 @@
 - Supplemental compensation for students completing Zhang's finance AI decision tasks
 - Administered through Gies Business Research Lab protocols
 
-### 8. Contingency & Supplies — $5,000
+### 8. Contingency & Supplies — $4,120
 
 - Buildathon/challenge event supplies and student meals ($1,500/year)
-- Unexpected software licensing, data acquisition, or integration costs ($1,000/year)
+- Unexpected software licensing, data acquisition, or integration costs ($560/year)
 
 ---
 
@@ -131,4 +133,4 @@ The $75,000 grant request funds the coordination layer that unlocks over $410,00
 - **No new compute infrastructure** is built — the project integrates Canvas MCP and DSRS systems that are already operational.
 - **Fringe benefits** are included at the university's hourly student employee rate (~8%).
 - **No internal cost recovery overhead** is included per CFP guidelines.
-- All spending completes before end of AY 2027-28 per proposed timeline.
+- All spending completes before end of AY 2028-29 per CFP requirements.

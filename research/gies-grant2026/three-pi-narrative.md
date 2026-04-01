@@ -41,7 +41,7 @@ RQ1 employs process mining of interaction sequences and regression analysis of s
 
 **Vishal Sachdev (PI, Business Administration)** — Developer of Canvas MCP (90+ tools, PyPI-published, 6 course adoptions), founder of [AgentLab](https://agentlab.illinihunt.org/) student research organization, presenter at ICIS 2025. Designs the Engine's challenge flow, student coordination, and skill library. Teaches AI-intensive courses (BADM 554, BADM 590) serving 1,000+ students annually.
 
-**Qingquan Zhang (Co-I, Finance)** — Author of *Alternative Data and AI Techniques* (Palgrave Macmillan, 2022), published on AI transparency and tax policy in cryptocurrency markets (*Research Policy*, 2026) and AI-driven competitive intelligence (*Expert Systems with Applications*, 2025). Best Paper Award, 25th NBES Annual Conference (2025). CFA charterholder. CITL Faculty Fellow and Gies Innovation Scholar (2024-25). Contributes the first finance-domain challenges to the Engine and AI decision-making experimental methodology. Zhang's experience building an EdTech AI startup informs platform design and adoption measurement.
+**Qingquan Zhang (Co-I, Finance)** — Author of *Alternative Data and AI Techniques* (Palgrave Macmillan, 2022), published on AI transparency and tax policy in cryptocurrency markets (*Research Policy*, 2026) and AI-driven competitive intelligence (Tian & Zhang, *Expert Systems with Applications*, 2025). Best Paper Award, 25th NBES Annual Conference (2025). CFA charterholder. CITL Faculty Fellow and Gies Innovation Scholar (2024-25). Contributes the first finance-domain challenges to the Engine and AI decision-making experimental methodology. Zhang's experience building an EdTech AI startup informs platform design and adoption measurement.
 
 **Matias Carrasco Kind (Co-I, Accountancy/DSRS)** — Director of Data Science Research Services, which has completed 400+ tasks for 60+ faculty members across all Gies departments. Also holds appointments at the National Center for Supercomputing Applications (NCSA) and as Faculty in Residence at Discovery Partners Institute (DPI). DSRS operates a compute cluster with 486 CPU cores, 2.2 TB RAM, 2 NVIDIA A100 GPUs, and has published its architecture as a peer-reviewed case study (Carrasco Kind, 2023). Carrasco Kind's team built the iKompete challenge platform and the Atlas agentic framework, provides the Engine's computational backbone, and brings 42+ graduate and 42+ undergraduate research advisees. DSRS's existing cross-departmental service model means the infrastructure is already designed to support multiple faculty researchers.
 
@@ -86,10 +86,8 @@ Carrasco Kind, M. (2023). Scalable Research Infrastructure in a Business School 
 
 Dell'Acqua, F., et al. (2023). Navigating the jagged technological frontier. *Harvard Business School Working Paper* 24-013.
 
-Noy, S., & Zhang, W. (2023). Experimental evidence on the productivity effects of generative AI. *Science*, 381(6654), 187-192.
-
-Zhang, Q. (2022). *Alternative Data and Artificial Intelligence Techniques: Applications in Investment and Risk Management*. Palgrave Macmillan.
+Zhang, Q., Li, B., & Xie, D. (2022). *Alternative Data and Artificial Intelligence Techniques: Applications in Investment and Risk Management*. Palgrave Macmillan.
 
 Zhang, Q. (2026). How transparency shapes tax policy effectiveness: Evidence from cryptocurrency markets. *Research Policy*, 55.
 
-Zhang, Q., et al. (2025). From Data to Strategy: A Public Market Framework for Competitive Intelligence. *Expert Systems with Applications*, 296.
+Tian, T., & Zhang, Q. (2025). From Data to Strategy: A Public Market Framework for Competitive Intelligence. *Expert Systems with Applications*, 296.

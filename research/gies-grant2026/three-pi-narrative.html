@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: letter;
+    margin: 1in;
+  }
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    line-height: 2;
+    color: #000;
+  }
+  h1 {
+    font-size: 13pt;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 0.2em;
+    margin-top: 0;
+  }
+  .header-meta {
+    text-align: center;
+    font-size: 11pt;
+    line-height: 1.5;
+    margin-bottom: 1em;
+  }
+  h2 {
+    font-size: 12pt;
+    font-weight: bold;
+    margin-top: 0.6em;
+    margin-bottom: 0.1em;
+    line-height: 2;
+  }
+  p {
+    margin: 0 0 0.05em 0;
+    text-indent: 0;
+  }
+  strong { font-weight: bold; }
+  em { font-style: italic; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10pt;
+    line-height: 1.3;
+    margin: 0.3em 0;
+  }
+  th {
+    border-bottom: 2px solid #000;
+    padding: 2px 6px;
+    text-align: left;
+    font-weight: bold;
+  }
+  td {
+    border-bottom: 1px solid #ccc;
+    padding: 2px 6px;
+    vertical-align: top;
+  }
+  .references {
+    line-height: 1.5;
+    font-size: 11pt;
+  }
+  .references p {
+    margin-bottom: 0.4em;
+    padding-left: 2em;
+    text-indent: -2em;
+  }
+  a { color: #000; text-decoration: underline; }
+  hr { border: none; border-top: 1px solid #999; margin: 0.8em 0; }
+  .page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<h1>The Gies AI Innovation Engine:<br>Shared Research Infrastructure for AI-Driven Business Education</h1>
+
+<div class="header-meta">
+<strong>PI:</strong> Vishal Sachdev, Clinical Associate Professor, Business Administration<br>
+<strong>Co-Is:</strong> Qingquan Zhang, Adjunct Clinical Assistant Professor, Finance;
+Matias Carrasco Kind, Research Assistant Professor, Accountancy / Director, DSRS
+</div>
+
+<h2>1. The Opportunity</h2>
+
+<p>Every top business school is adding AI courses. Few are building shared infrastructure where teaching AI simultaneously produces reusable tools, generates research data, and builds institutional capability. Gies has the assets to do this — they are simply not yet connected. The Magelli Office runs 200+ client projects per year. Six courses use Canvas MCP, an open-source AI toolkit with 90+ tools. DSRS operates a compute cluster with A100 GPUs, self-hosted LLM endpoints, the Atlas agentic framework, and iKompete — a competition platform for challenge submissions and peer evaluation — all described in Carrasco Kind (2023). Student organizations (<a href="https://agentlab.illinihunt.org/">AgentLab</a>, IBC, Disruption Lab) are actively building AI solutions. Yet these assets lack a shared challenge pipeline, compound skill library, or research instrumentation. This proposal funds the coordination layer that connects them — the AI Innovation Engine.</p>
+
+<h2>2. What We Propose</h2>
+
+<p>The AI Innovation Engine is a platform where faculty post real-world AI challenges and student teams build solutions using shared infrastructure. Every completed project deposits a reusable AI skill into a compound library that makes the next project faster and generates research data on human-AI collaboration. The Engine is an AI coordination layer on top of infrastructure that already exists.</p>
+
+<p><strong>How it works.</strong> Faculty post challenge briefs. DSRS's iKompete platform provides submission and evaluation infrastructure. Student teams build solutions using Canvas MCP for LMS integration and DSRS for compute and data pipelines. Completed solutions enter the skill library; interaction data flows to the research dataset.</p>
+
+<p><strong>The compound skill library.</strong> Each completed project produces reusable components — prompt templates, data connectors, workflow patterns, evaluation rubrics. Next semester's students start with a richer toolkit. The library is itself a scholarly contribution: a novel model for compound experiential learning infrastructure, publishable in learning sciences and CSCW venues. This "Build to Learn, Learn to Build" model means students architect systems that serve the next cohort.</p>
+
+<p><strong>Research data as byproduct.</strong> The Engine instruments student-AI interactions at three levels: (a) task-level logs capturing tool usage and prompting strategies; (b) project-level metadata including challenge type, team composition, and outcomes; and (c) assessment data from rubric-based evaluations. All data collection follows IRB protocols with informed consent. Student-built skill library artifacts remain the intellectual property of their creators; interaction logs are collected only with consent and de-identified before analysis (Dell'Acqua et al., 2023).</p>
+
+<h2>3. Research Questions</h2>
+
+<p><strong>RQ1:</strong> How do business students develop AI collaboration skills over time, and what task characteristics predict effective versus ineffective human-AI partnerships? <strong>RQ2:</strong> How does AI assistance affect the quality and confidence calibration of business decisions across functional domains? RQ1 employs process mining and regression analysis of skill trajectories. RQ2 uses experimental designs embedded in finance courses (Zhang), measuring decision quality and appropriate AI reliance. The Engine's instrumentation layer is designed so that additional Gies faculty can integrate their courses and collect data under their own IRB protocols — we build the infrastructure, they bring the research question.</p>
+
+<h2>4. Team</h2>
+
+<p><strong>Vishal Sachdev (PI, Business Administration)</strong> — Developer of Canvas MCP (90+ tools, PyPI-published, 6 course adoptions), founder of <a href="https://agentlab.illinihunt.org/">AgentLab</a>, presenter at ICIS 2025. Designs the Engine's challenge flow, skill library, and student coordination. Teaches BADM 554 and 590 (1,000+ students/year).</p>
+
+<p><strong>Qingquan Zhang (Co-I, Finance)</strong> — Author of <em>Alternative Data and AI Techniques</em> (Palgrave Macmillan, 2022), published in <em>Research Policy</em> (2026) and <em>Expert Systems with Applications</em> (Tian &amp; Zhang, 2025). Best Paper, 25th NBES (2025). CFA charterholder. CITL Faculty Fellow and Gies Innovation Scholar (2024-25). Contributes finance-domain challenges, experimental methodology, and EdTech startup design insight.</p>
+
+<p><strong>Matias Carrasco Kind (Co-I, Accountancy/DSRS)</strong> — Director of DSRS (400+ tasks, 60+ faculty). Appointments at NCSA and Discovery Partners Institute. Published DSRS architecture (Carrasco Kind, 2023). Built iKompete and Atlas. Provides the Engine's computational backbone and student intern team. A buildathon scheduled for April 2026 is the first pilot of this collaboration.</p>
+
+<h2>5. Timeline</h2>
+
+<table>
+<thead><tr><th style="width:110px">Period</th><th>Activity</th></tr></thead>
+<tbody>
+<tr><td><strong>Apr 2026</strong></td><td>Buildathon pilot: first challenges through DSRS, three-PI collaboration tested</td></tr>
+<tr><td><strong>Sum 2026</strong></td><td>IRB submission; Engine coordination layer design; tool stack evaluation; skill library schema</td></tr>
+<tr><td><strong>Fall 2026</strong></td><td>Launch: 3 courses (~300 students), first challenges posted, data collection begins</td></tr>
+<tr><td><strong>Spr 2027</strong></td><td>Scale to 5 courses; Zhang runs finance AI decision challenges; begin analysis</td></tr>
+<tr><td><strong>Sum 2027</strong></td><td>Dataset curation; draft RQ1/RQ2 papers; prepare NSF pre-proposal</td></tr>
+<tr><td><strong>Fall 2027</strong></td><td>Target 8 courses; instrumentation available to additional faculty</td></tr>
+<tr><td><strong>Spr 2028</strong></td><td>Submit 2-3 papers; submit NSF Cyberlearning proposal; present at ICIS/AOM</td></tr>
+</tbody>
+</table>
+
+<h2>6. Broader Impact and External Funding</h2>
+
+<p>The Engine lowers the barrier to AI education research from "build your own apparatus" to "plug your course into the Engine." Faculty across departments can study AI-mediated decision-making, learning analytics, and technology adoption without duplicating infrastructure. Future extensions include corporate challenge sponsorships, Origin Ventures commercialization, and online MBA "Bring Your Own Challenge." We intend to submit an NSF Cyberlearning proposal using Year 1 data.</p>
+
+<hr>
+
+<h2>References</h2>
+
+<div class="references">
+<p>Carrasco Kind, M. (2023). Scalable Research Infrastructure in a Business School Context: A Case Study of the Data Science Research Services. <em>Gateways 2023</em>, Paper 28.</p>
+<p>Dell'Acqua, F., et al. (2023). Navigating the jagged technological frontier. <em>Harvard Business School Working Paper</em> 24-013.</p>
+<p>Tian, T., &amp; Zhang, Q. (2025). From Data to Strategy: A Public Market Framework for Competitive Intelligence. <em>Expert Systems with Applications</em>, 296.</p>
+<p>Zhang, Q., Li, B., &amp; Xie, D. (2022). <em>Alternative Data and Artificial Intelligence Techniques</em>. Palgrave Macmillan.</p>
+<p>Zhang, Q. (2026). How transparency shapes tax policy effectiveness: Evidence from cryptocurrency markets. <em>Research Policy</em>, 55.</p>
+</div>
+
+</body>
+</html>
